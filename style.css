@@ -79,7 +79,7 @@ nav {
 #contact {
     display: flex;
     justify-content: space-evenly;
-    width: 200px;
+    width: 15rem;
     align-items: center;
 }
 
@@ -135,7 +135,7 @@ nav {
 }
 
 #intro h1 {
-    font-size: 40px;
+    font-size: 3rem;
     font-weight: 500;
     color: #020202;
 }
@@ -173,20 +173,20 @@ nav {
 #bubble1 {
     position: absolute;
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    top: 100px;
-    left: 40px;
+    height: 9rem;
+    width: 9rem;
+    top: 10%;
+    left: 4%;
     background-color: #bddbf2;
 }
 
 #bubble2 {
     position: absolute;
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
-    right: 400px;
-    bottom: 350px;
+    height: 2rem;
+    width: 2rem;
+    right: 25%;
+    bottom: 51%;
     background-color: #f9b5b8;
     z-index: -1;
 }
@@ -194,10 +194,10 @@ nav {
 #bubble3 {
     position: absolute;
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
-    right: 220px;
-    top: 200px;
+    height: 2rem;
+    width: 2rem;
+    right: 6%;
+    top: 25%;
     background-color: #f9b5b8;
     z-index: -1;
 }
