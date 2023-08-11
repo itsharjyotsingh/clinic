@@ -4,6 +4,7 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body::-webkit-scrollbar {
@@ -153,10 +154,12 @@ nav {
 
 .getDirButton {
     border: 1px solid #5ea7e6;
+    background-color: #fff;
 }
 
 .contactMeBtn {
     border: 1px solid #f9b5b8;
+    background-color: #fff;
     margin-left: 10px;
 }
 
@@ -303,4 +306,20 @@ nav {
 
 #actualReview {
     width: 70%;
+}
+
+#map {
+    min-height: 500px;
+    padding: 20px;
+}
+
+#innerDiv {
+    margin: 0px auto;
+    height: 100%;
+    width: 80%;
+}
+
+#innerDiv h1 {
+    text-align: center;
+    font-weight: 500;
 }
