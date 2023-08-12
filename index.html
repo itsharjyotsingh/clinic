@@ -13,6 +13,7 @@
     <title>Homeopathy</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="screenSize.css">
 </head>
 
 <body>
@@ -31,11 +32,11 @@
         </div>
     </nav>
 
-    <section id="introSection">
+    <section id="introSection" class="border1">
         <div id="img">
             <img src="./images/doctor-img.png" alt="doctor-img">
         </div>
-        <div id="intro">
+        <div id="intro" class="border1">
             <h1>Hi, I am <span>Dr.</span>Harpreet Kour.</h1>
             <p>Access to health care may vary across countries, communities and social and economic conditions as well as health policies.</p>
             <div id="introButtons">
@@ -56,7 +57,7 @@
         <div id="cards">
             <div class="card">
                 <img src="./images/card-doc-img.png" alt="card-doc-img">
-                <h1>MBBS</h1>
+                <h1>BHMS</h1>
                 <p>Experience</p>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum eligendi iusto cupiditate, quibusdam illum tempore veniam ullam quo consequuntur nobis.</p>
             </div>
@@ -130,12 +131,22 @@
 
 
     <footer>
-
+        <div id="main">
+            <img src="images/doctor-symbol.png" alt="doctor-symbol-img">
+            <div id="footerContent">
+                <ul>
+                    <li><a href="#">- Contact Me</a></li>
+                    <li><a href="#clientSection">- My case studies</a></li>
+                    <li><a href="#navBar">- Get to the top of the page</a></li>
+                </ul>
+            </div>
+        </div>
     </footer>
 
     <!-- script tag -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js"></script>
+    <!-- Include ScrollTrigger plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/ScrollTrigger.min.js"></script><script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="query.js"></script>
 </body>
 
