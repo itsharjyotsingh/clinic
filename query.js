@@ -43,16 +43,15 @@ gsap.from(
 )
 gsap.registerPlugin(ScrollTrigger);
 
-// Animate the ".card" elements inside the "#cards" container using ScrollTrigger
 gsap.from(".card", {
     y: '-50px',
     opacity: 0,
     duration: 1,
     scrollTrigger: {
-        trigger: "#aboutMe", // Use the trigger ID here
-        start: "top center", // Animation starts when the top of the trigger element hits the center of the viewport
-        end: "center", // Animation ends when the bottom of the trigger element hits the center of the viewport
-        scrub: true, // Smoothly animates the element during scrolling
+        trigger: "#aboutMe",
+        start: "top center",
+        end: "center",
+        scrub: true,
     }
 });
 
