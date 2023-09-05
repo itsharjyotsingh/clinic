@@ -65,6 +65,7 @@ nav {
 }
 
 .link {
+    text-decoration: none;
     color: #00000092;
 }
 
@@ -122,6 +123,15 @@ nav {
     height: 90%;
     z-index: 10;
     position: relative;
+}
+
+#img img {
+    position: relative;
+    bottom: 10px;
+    overflow: hidden;
+    border-radius: 500px;
+    left: 73px;
+    width: 380px;
 }
 
 #img::before {
@@ -310,7 +320,70 @@ nav {
     width: 70%;
 }
 
+#accordionWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#accordion {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#accordion h1 {
+    font-weight: 500;
+}
+
+#accordionContainer {
+    width: 80%;
+}
+
+.accordion {
+    margin: 10px auto;
+    padding: 0px 10px;
+    width: 90%;
+    background-color: #afcbe3;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+    cursor:pointer;
+}
+
+.accordion:hover {
+    background-color: #5691e9;
+}
+
+.accordionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordionHeader h1 {
+    font-weight: 400;
+}
+
+.accordionHeader img {
+    width: 1.5rem;
+    transition-duration: 0.4s;
+}
+
+.upsideDown {
+    transform: rotate(180deg);
+}
+
+.accordionBody {
+    padding: 10px;
+}
+
+.none {
+    display: none;
+}
+
 #map {
+    margin-top: 100px;
     min-height: 500px;
     padding: 20px;
 }

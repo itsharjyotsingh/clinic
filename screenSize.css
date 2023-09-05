@@ -87,7 +87,7 @@
     }
 
     .card:hover {
-        box-shadow: 0px 0px 5px #5691e9;
+        box-shadow: 0px 0px 15px 15px #5691e9;
     }
 
     #clientSection {
@@ -99,7 +99,7 @@
         font-size: 25px;
     }
 
-        #clientReview p {
-            font-size: 16px;
-        }
+    #clientReview p {
+        font-size: 16px;
+    }
 }

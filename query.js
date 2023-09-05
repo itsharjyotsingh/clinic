@@ -51,7 +51,6 @@ gsap.from(".card", {
         trigger: "#aboutMe",
         start: "top center",
         end: "center",
-        scrub: true,
     }
 });
 
@@ -66,3 +65,12 @@ var swiper = new Swiper(".mySwiper", {
         prevEl: ".swiper-button-prev",
     },
 });
+
+document.querySelectorAll(".accordion").forEach((accordion) => {
+    accordion.addEventListener("click", () => {
+        var accordionbody = accordion.lastElementChild;
+        accordionbody.classList.toggle('none');
+        var accordionImg = accordion.children[0].children[1].classList.toggle("upsideDown");
+        console.log(accordionImg);
+    })
+})
